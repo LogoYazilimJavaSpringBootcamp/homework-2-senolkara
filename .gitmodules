@@ -1,0 +1,12 @@
+[submodule "answer1"]
+	path = answer1
+	url = https://github.com/LogoYazilimJavaSpringBootcamp/homework-2-senolkara.git
+[submodule "answer2"]
+	path = answer2
+	url = https://github.com/LogoYazilimJavaSpringBootcamp/homework-2-senolkara.git
+[submodule "answer3"]
+	path = answer3
+	url = https://github.com/LogoYazilimJavaSpringBootcamp/homework-2-senolkara.git
+[submodule "answer4"]
+	path = answer4
+	url = https://github.com/LogoYazilimJavaSpringBootcamp/homework-2-senolkara.git
