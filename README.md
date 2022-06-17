@@ -1,7 +1,5 @@
 # Homework-2
 
----
-
 * Java dünyasındaki framework’ler ve çözdükleri problemler nedir?(Spring MVC, JSP,
   Struct, Vaadin). Örnekler ile açıklayın. (20 Puan)
 * Katmanlı mimari nedir? (10 Puan)
