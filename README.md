@@ -1,5 +1,3 @@
-# Cevaplar hmwrk2 branch içerisinde bulunmaktadır. 
-
 # Homework-2
 
 ---
