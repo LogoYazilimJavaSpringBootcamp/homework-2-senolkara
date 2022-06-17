@@ -1,4 +1,4 @@
-# _Cevaplar hmwrk1 branch içerisinde bulunmaktadır._
+# _Cevaplar hmwrk2 branch içerisinde bulunmaktadır._
 
 # homework-2
 
