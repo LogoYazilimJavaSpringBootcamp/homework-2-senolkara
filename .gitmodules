@@ -12,7 +12,7 @@
 	url = https://github.com/LogoYazilimJavaSpringBootcamp/homework-2-senolkara.git
 [submodule "answer5"]
 	path = answer5
-	url = https://github.com/LogoYazilimJavaSpringBootcamp/homework-1-senolkara.git
+	url = https://github.com/LogoYazilimJavaSpringBootcamp/homework-2-senolkara.git
 [submodule "answer6"]
 	path = answer6
 	url = https://github.com/LogoYazilimJavaSpringBootcamp/homework-2-senolkara.git
