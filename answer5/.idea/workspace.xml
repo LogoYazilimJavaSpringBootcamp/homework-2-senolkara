@@ -5,38 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a434869e-8009-4858-85b9-46afc8c4c8a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/address/ShippingAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/company/CompanyType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/company/CorporateCompany.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/company/StartUpCompany.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/invoices/InvoiceType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/invoices/SellingInvoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karakurt/address/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/address/BillingAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karakurt/address/AddressFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/address/AddressFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karakurt/address/AddressManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/address/AddressManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karakurt/company/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/company/PersonCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karakurt/company/CompanyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/company/CompanyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karakurt/company/CompanyINF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/company/CompanyINF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karakurt/company/CompanyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/company/CompanyManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karakurt/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/customer/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karakurt/customer/CustomerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/customer/CustomerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karakurt/customer/CustomerINF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/customer/CustomerINF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karakurt/customer/CustomerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/customer/CustomerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karakurt/invoices/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/invoices/BuyingInvoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karakurt/invoices/InvoiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/invoices/InvoiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karakurt/invoices/InvoiceINF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/invoices/InvoiceINF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karakurt/invoices/InvoiceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/invoices/InvoiceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karakurt/order/OrderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karakurt/order/OrderManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karakurt/company/Company.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karakurt/company/CompanyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/karakurt/company/CompanyFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karakurt/company/CompanyManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/karakurt/company/CompanyManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karakurt/customer/CustomerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/karakurt/customer/CustomerFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karakurt/invoices/Invoice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karakurt/invoices/InvoiceManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/karakurt/invoices/InvoiceManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../answer6" beforeDir="false" afterPath="$PROJECT_DIR$/../answer6" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
