@@ -8,7 +8,7 @@ public class CompanyManager {
         List<CompanyINF> companyList = new ArrayList<>();
         Map<String,String> randomCompanies = this.getRandomCompanies();
         randomCompanies.forEach((key,value) -> {
-            companyList.add(createCompany(key,value));
+            companyList.add(createCompany(key,value,getOneCompanyType()));
         });
         this.companies = companyList;
         return this.companies;
@@ -32,10 +32,22 @@ public class CompanyManager {
         randomCompanies.put("Casper Tech","Tech");
         return randomCompanies;
     }
-    public CompanyINF createCompany(String name, String industry){
-        return CompanyFactory.createCompany(name, industry);
+    public CompanyINF createCompany(String name, String industry, CompanyType companyEnum){
+        return CompanyFactory.createCompany(name, industry, companyEnum);
     }
     public CompanyINF getOneCompany(List<CompanyINF> companyList, int randomIndex){
         return companyList.get(randomIndex);
+    }
+    private List<CompanyType> getCompanyTypes(){
+        List<CompanyType> companyTypeList = new ArrayList<>();
+        for (CompanyType e: CompanyType.values()){
+            companyTypeList.add(e);
+        }
+        return companyTypeList;
+    }
+    public CompanyType getOneCompanyType(){
+        long count = this.getCompanyTypes().stream().count();
+        int index = new Random().nextInt((int) count);
+        return this.getCompanyTypes().get(index);
     }
 }

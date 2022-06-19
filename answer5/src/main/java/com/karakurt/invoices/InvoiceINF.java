@@ -18,4 +18,6 @@ public interface InvoiceINF extends DateOperations {
     void setCustomer(CustomerINF customer);
     CompanyINF getCompany();
     void setCompany(CompanyINF company);
+    InvoiceType getInvoiceType();
+    void setInvoiceType(InvoiceType invoiceType);
 }

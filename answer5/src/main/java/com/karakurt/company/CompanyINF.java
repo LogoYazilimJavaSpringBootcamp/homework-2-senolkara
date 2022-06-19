@@ -5,4 +5,6 @@ public interface CompanyINF {
     void setName(String name);
     String getIndustry();
     void setIndustry(String industry);
+    CompanyType getCompanyType();
+    void setCompanyType(CompanyType companyType);
 }

@@ -1,7 +1,5 @@
 package com.karakurt.customer;
 
-import com.karakurt.address.Address;
-import com.karakurt.address.AddressManager;
 import com.karakurt.needs.DateOperations;
 import com.karakurt.needs.UserOperations;
 import com.karakurt.order.*;

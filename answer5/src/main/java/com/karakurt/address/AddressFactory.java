@@ -1,17 +1,21 @@
 package com.karakurt.address;
 
-import java.util.HashSet;
-import java.util.Set;
-
 public class AddressFactory {
-    public static Set<AddressINF> createAddress(String addr){
-        Set<AddressINF> addresses = new HashSet<>();
-        AddressINF address = new Address();
+    public static AddressINF createAddress(String addr, AddressType addressType){
+        AddressINF address;
+        switch (addressType){
+            case BILLING -> {
+                address = new BillingAddress();
+            }
+            case SHIPPING -> {
+                address = new ShippingAddress();
+            }
+            default -> {
+                throw new RuntimeException("AddressType not found");
+            }
+        }
         address.setAddress(addr);
-        address.setAddressType(AddressType.SHIPPING);
-        addresses.add(address);
-        address.setAddressType(AddressType.BILLING);
-        addresses.add(address);
-        return addresses;
+        address.setAddressType(addressType);
+        return address;
     }
 }

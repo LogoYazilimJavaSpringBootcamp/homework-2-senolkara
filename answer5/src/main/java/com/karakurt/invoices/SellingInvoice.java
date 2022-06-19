@@ -7,13 +7,14 @@ import com.karakurt.needs.DateOperations;
 
 import java.time.LocalDate;
 
-public class Invoice implements InvoiceINF {
+public class SellingInvoice implements InvoiceINF {
     private String invoiceNo;
     private AddressINF address;
     private Double amount;
     private Double averageAmount;
     private CustomerINF customer;
     private CompanyINF company;
+    private InvoiceType invoiceType;
     private LocalDate createdDT = DateOperations.createdDT;
     @Override
     public String getInvoiceNo() {
@@ -70,5 +71,13 @@ public class Invoice implements InvoiceINF {
     @Override
     public void setCompany(CompanyINF company) {
         this.company = company;
+    }
+    @Override
+    public InvoiceType getInvoiceType(){
+        return invoiceType;
+    }
+    @Override
+    public void setInvoiceType(InvoiceType invoiceType){
+        this.invoiceType = invoiceType;
     }
 }

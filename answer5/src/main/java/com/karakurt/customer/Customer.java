@@ -5,13 +5,12 @@ import com.karakurt.needs.DateOperations;
 import com.karakurt.order.OrderINF;
 
 import java.time.LocalDate;
-import java.util.Set;
 
 public class Customer implements CustomerINF {
     private String firstName;
     private String lastName;
     private String email;
-    private Set<AddressINF> addresses;
+    private AddressINF address;
     private OrderINF order;
     private LocalDate createdDT = DateOperations.createdDT;
     @Override
@@ -39,12 +38,12 @@ public class Customer implements CustomerINF {
         this.email = email;
     }
     @Override
-    public Set<AddressINF> getAddresses() {
-        return addresses;
+    public AddressINF getAddress() {
+        return address;
     }
     @Override
-    public void setAddresses(Set<AddressINF> addresses) {
-        this.addresses = addresses;
+    public void setAddress(AddressINF address) {
+        this.address = address;
     }
     @Override
     public OrderINF getOrder() {
@@ -67,7 +66,7 @@ public class Customer implements CustomerINF {
         return "Customer{" +
                 ", firstName='" + this.firstName + '\'' +
                 ", lastName='" + this.lastName + '\'' +
-                ", address='" + this.addresses + '\'' +
+                ", address='" + this.address + '\'' +
                 ", order='" + this.order + '\'' +
                 '}';
     }

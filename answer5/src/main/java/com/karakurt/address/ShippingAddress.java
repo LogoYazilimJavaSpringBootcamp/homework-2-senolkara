@@ -1,6 +1,6 @@
 package com.karakurt.address;
 
-public class Address implements AddressINF {
+public class ShippingAddress implements AddressINF {
     private String address;
     private AddressType addressType;
     @Override
@@ -21,7 +21,7 @@ public class Address implements AddressINF {
     }
     @Override
     public String toString() {
-        return "Address{" +
+        return "ShippingAddress{" +
                 ", address='" + this.address + '\'' +
                 ", addressType=" + this.addressType +
                 '}';

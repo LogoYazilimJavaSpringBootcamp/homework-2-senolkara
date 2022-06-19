@@ -6,7 +6,6 @@ import com.karakurt.address.AddressType;
 import com.karakurt.order.OrderINF;
 
 import java.time.LocalDate;
-import java.util.Set;
 
 public class CustomerFactory {
     public static CustomerINF createCustomer(String username, String addr, OrderINF order, LocalDate createdDT){
@@ -14,12 +13,12 @@ public class CustomerFactory {
         String lastName = splitUsername(username)[1];
         String email = createEmail(username);
         AddressManager addressManager = new AddressManager();
-        Set<AddressINF> addresses = addressManager.createAddress(addr, AddressType.BILLING);
+        AddressINF address = addressManager.createAddress(addr, AddressType.BILLING);
         CustomerINF customer = new Customer();
         customer.setFirstName(firstName);
         customer.setLastName(lastName);
         customer.setEmail(email);
-        customer.setAddresses(addresses);
+        customer.setAddress(address);
         customer.setOrder(order);
         customer.setCreatedDT(createdDT);
         return customer;

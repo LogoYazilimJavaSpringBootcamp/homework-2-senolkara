@@ -11,6 +11,21 @@ public class OrderManager {
     public OrderINF getOneOrder(List<OrderINF> orderList, int index){
         return orderList.get(index);
     }
+    public static Double getTotalAmount(OrderINF order){
+        return order.getProductList()
+                .stream()
+                .map(product -> product.getPrice())
+                .reduce(0.0,Double::sum);
+    }
+    public static Double getAverageAmount(OrderINF order){
+        return getTotalAmount(order) / countOrder(order);
+    }
+    public static Long countOrder(OrderINF order){
+        return order.getProductList()
+                .stream()
+                .map(product -> product.getPrice())
+                .count();
+    }
     public void changeOrderCaseType(OrderCase orderCase, OrderStatus orderStatus, OrderINF order){
         orderCase.setType(OrderCaseType.CREATED);
         order.setOrderStatus(orderStatus);
